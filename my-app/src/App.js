@@ -7,19 +7,19 @@ import Aboutme from './components/Pages/Aboutme/Aboutme';
 
 function App() {
   const [page, setPage] = useState('project')
-  const render = () => {
-    if (page === 'project') {
-      return <Project></Project>
+  // const render = () => {
+  //   if (page === 'project') {
+  //     return <Project></Project>
 
-    }
-    else if (page === 'aboutme') {
-      return <Aboutme></Aboutme>
-    }
-  }
+  //   }
+  //   else if (page === 'aboutme') {
+  //     return <Aboutme></Aboutme>
+  //   }
+  // }
   return (
    <>
    <Header setPage={setPage}></Header>
-   {render()}
+   {/* {render()} */}
 
    </>
     

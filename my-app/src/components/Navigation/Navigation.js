@@ -1,10 +1,11 @@
 import React from 'react'
+import './style.css'
 
 export default function Navigation() {
   return (
     <>
     <nav>
-    <img src='../public/bbturtle.png' alt='baby turtle logo'/>
+    <img src='../mountain.png' alt='baby turtle logo'/>
     <h2>About me</h2>
     <h2>Projects</h2>
     <h2>Contact</h2>
