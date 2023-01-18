@@ -1,23 +1,28 @@
 import './App.css';
+import {useState} from 'react';
+import Header from './components/Header/Header';
+import Project from './components/Pages/Project/Project';
+import Aboutme from './components/Pages/Aboutme/Aboutme';
+
 
 function App() {
+  const [page, setPage] = useState('project')
+  const render = () => {
+    if (page === 'project') {
+      return <Project></Project>
+
+    }
+    else if (page === 'aboutme') {
+      return <Aboutme></Aboutme>
+    }
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <>
+   <Header setPage={setPage}></Header>
+   {render()}
+
+   </>
+    
   );
 }
 
