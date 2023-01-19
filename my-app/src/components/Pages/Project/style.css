@@ -1,0 +1,121 @@
+box-container {
+    margin-left: 33vw;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .box1 {
+    width: 50vw;
+    height: 200px;
+    border: 10px solid #8e8d8a;
+    padding: 10px;
+    margin: 20px;
+    /* background-image:
+      linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)),
+      url(pont.jpeg); */
+    object-fit: cover;
+    background-position: center;
+  }
+  
+  .box2 {
+    width: 21vw;
+    height: 100px;
+    border: 10px solid #8e8d8a;
+    padding: 50px;
+    margin: 20px;
+    /* background-image:
+      linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)),
+      url(record.jpeg); */
+    object-fit: cover;
+    background-position: center;
+  
+  }
+  
+  .box3 {
+    width: 21vw;
+    height: 100px;
+    border: 10px solid #8e8d8a;
+    padding: 50px;
+    margin: 20px;
+    /* background-image:
+      linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)),
+      url(rain.jpeg); */
+    object-fit: cover;
+    background-position: center;
+  }
+  
+  .box4 {
+    width: 21vw;
+    height: 100px;
+    border: 10px solid #8e8d8a;
+    padding: 50px;
+    margin: 20px;
+    /* background-image:
+      linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)),
+      url(boat.jpeg); */
+    object-fit: cover;
+    background-position: center;
+  }
+  
+  .box5 {
+    width: 21vw;
+    height: 100px;
+    border: 10px solid #8e8d8a;
+    padding: 50px;
+    margin: 20px;
+    /* background-image:
+      linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)),
+      url(cafe.jpeg); */
+    object-fit: cover;
+    background-position: center;
+  }
+  
+  .box1image {
+    object-fit: cover;
+  }
+  
+  .titlebox1 {
+    width: 50px;
+    height: 20px;
+    border: 10px solid #8e8d8a;
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  .footer-text {
+    display: inline-block;
+  }
+  
+  .insta {
+  
+    height: 100px;
+    width: 300px;
+  }
+  
+  .music {
+  
+    height: 100px;
+    width: 300px;
+  }
+  
+  
+  .photography-text {
+    width: 50px;
+    height: 10px;
+    border: 10px solid #eae7dc;
+    padding: 30px;
+    margin-right: 6em;
+    margin-bottom: 10em;
+    position: relative;
+  }
+  
+  .music-text {
+    background-color: #eae7dc;
+    border: 10px solid #eae7dc;
+    width: 50px;
+    height: 10px;
+    padding: 30px;
+    position: relative;
+  }
+ 
+  
