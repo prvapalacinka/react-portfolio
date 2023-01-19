@@ -3,6 +3,7 @@ import {useState} from 'react';
 import Header from './components/Header/Header';
 import Project from './components/Pages/Project/Project';
 import Aboutme from './components/Pages/Aboutme/Aboutme';
+import Contact from './components/Pages/Contact/Contact';
 
 
 function App() {
@@ -13,6 +14,9 @@ function App() {
     }
     else if (page === 'aboutme') {
       return <Aboutme></Aboutme>
+    }
+    else if (page === 'contact') {
+      return <Contact></Contact>
     }
   }
 
