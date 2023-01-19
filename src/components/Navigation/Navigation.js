@@ -5,7 +5,7 @@ export default function Navigation(props) {
   return (
     <>
     <nav>
-    <img src='../mountain-removebg-preview.png' alt='baby turtle logo'/>
+    <img src='../mountain-removebg-preview.png' alt='mountain logo'/>
     <h2 onClick={() => props.changePage("aboutme")}>About me</h2>
     <h2 onClick={() => props.changePage("project")}>Projects</h2>
     <h2 onClick={() => props.changePage("contact")}>Contact</h2>
