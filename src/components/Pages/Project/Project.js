@@ -16,8 +16,8 @@ export default function project() {
                             href="https://prvapalacinka.github.io/Activity-1/" height="100px" width="200px">Client
                             Work</a></div>
                     <div class="box2" style={{backgroundImage: `url(${record})`}}><a class="music" alt="record player"
-                            href="https://open.spotify.com/artist/6HL8vRdmrOWbtmbTlx3WuY" height="200px"
-                            width="200px">Music</a></div>
+                            href="https://protected-shore-90563.herokuapp.com/" height="200px"
+                            width="200px">Museums App</a></div>
                     <div class="box3" style={{backgroundImage: `url(${rain})`}}><a class="UI" alt="Rain on airport runway"
                             href="https://kmanoovi.github.io/Reel-Reviews/">Reel Reviews</a>
                     </div>
